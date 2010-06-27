@@ -29,14 +29,11 @@ setup(
     license='Apache 2.0',
     url='http://code.google.com/p/myspaceid-python-sdk',
     packages=['myspace',
-              'myspace.oauthlib',
-    	      'myspace.simplejson',   
-              'myspace.openid',
-              'myspace.openid.consumer',
-              'myspace.openid.store',
-              'myspace.openid.yadis',
-              'myspace.openid.extensions',
               ],
+    requirements=['oauthlib',
+                  'simplejson',
+                  'openid',
+                 ],
     package_dir={'myspace': 'src/myspace'}
 )
 
