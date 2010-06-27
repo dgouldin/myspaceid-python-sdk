@@ -30,10 +30,10 @@ setup(
     url='http://code.google.com/p/myspaceid-python-sdk',
     packages=['myspace',
               ],
-    requirements=['oauthlib',
-                  'simplejson',
-                  'openid',
-                 ],
+    requires=['oauthlib',
+              'simplejson',
+              'openid',
+              ],
     package_dir={'myspace': 'src/myspace'}
 )
 
